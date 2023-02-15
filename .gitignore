@@ -2,3 +2,5 @@ __pycache__/
 env/
 app/core/clustering.ipynb
 app/config/.keys.cfg
+download/
+out/
