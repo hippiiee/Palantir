@@ -26,7 +26,7 @@ class GetGithubInfos:
         # Read the API key from the config file
         config = ConfigParser()
         try:
-            config.read('config/keys.cfg')
+            config.read('config/.keys.cfg')
             API_KEY = config.get('github', 'token')
             USER_AGENT = config.get('github', 'user-agent')
         except:
@@ -37,7 +37,6 @@ class GetGithubInfos:
     
     def run(self):
         # Get the repo infos
-        logging.info("GetGithubInfos")
         self.get_repo_infos()
     
     def get_repo_infos(self): 
@@ -61,6 +60,8 @@ class GetGithubInfos:
                     return False
                 for user in r.json():
                     stargazers.append(self.get_stargazer_info(user))
+            else:
+                logging.error("Error while getting stargazers")
             page += 1
         
         

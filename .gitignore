@@ -1,2 +1,4 @@
 app/config/.keys.cfg
 __pycache__/
+env/
+app/core/clustering.ipynb
