@@ -4,6 +4,9 @@ import argparse
 import logging
 import sys
 import os
+# File name          : main.py
+# Author             : Y0yor (@Y0yor)
+# Date created       : 2023-02-01
 
 """
 This script is the main script of the project. It is used to run the scraper and the clustering.
