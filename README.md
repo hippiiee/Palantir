@@ -19,9 +19,12 @@
 
 # Getting started
 ## Install
+- Install the dependencies required by the projet:
 ```bash
 pip3 install -r requirements.txt
 ```
+
+- Add your [github API token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) under *app/config/.keys.cfg*
 
 ## Usage
 TODO
