@@ -11,15 +11,21 @@
 
 --
 > **Warning**
-> Palantir is currently in devlopment.
+> Palantir is currently under development.
 # Features
 
 - :telescope: Data Scraping - Automated script for retrieving data from the GitHub API.
 - :bar_chart: Cluster Analysis - Implementation of an Agglomerative Hierarchical Clustering method for advanced data analysis.
 
 # Getting started
+## Install
+```bash
+pip3 install -r requirements.txt
+```
+
+## Usage
 TODO
 
 # License
 
-Source code in `palantir` is available under the [GNU General Public License v3.0](/LICENSE).
+Source code of `palantir` is available under the [GNU General Public License v3.0](/LICENSE).
